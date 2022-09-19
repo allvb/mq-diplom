@@ -1,0 +1,189 @@
+/*------HEADER------*/
+
+.header {
+	padding-bottom: 54%;
+	background-image: url("../images/banner-mobile.jpg");
+}
+
+.header-top {
+	height: 258px;
+	padding-top: 32px;
+	justify-content: end;
+	margin-right: 16px;
+}
+
+.header-logo {
+	width: 79%;
+	align-self: flex-end;
+	margin-right: 2%;
+}
+
+.menu-list-item {
+	display: none;
+}
+
+.menu-burger-line {
+	width: 23px;
+	height: 3px;
+	background-color: #ffffff;
+}
+
+.menu-burger-line:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+.header-intro {
+	max-width: 79%;
+	margin-top: 31px;
+	font-size: 1.6rem;
+}
+
+/*-------TRENDS------*/
+
+.trends {
+	padding-top: 37px;
+}
+
+.trends-title {
+	font-size: 1rem;
+}
+
+.trends-list {
+	margin-top: 24px;
+	flex-direction: column;
+}
+
+.trends-item {
+	width: 100%;
+	min-height: 230px;
+	padding:  16px 4% 16px 4%;
+}
+
+.trends-item:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+.trends-block {
+	padding: 28px 10px 23px 19px;
+}
+
+/*----------MAIN---------*/
+
+.page {
+	width: 92%;
+	flex-direction: column;
+}
+
+.news-article:not(:last-child) {
+	margin-bottom: 36px;
+}
+
+.news-description {
+	margin-top: 1.7%;
+	margin-bottom: 18px;
+}
+
+.news-inf {
+	margin-top: 15px;
+}
+
+.news-content {
+	margin: 1em 0 0 0;
+}
+
+.second-p{
+		margin-top: 0.2em;
+}
+
+/*-----------SIDEBAR-------*/
+
+.sidebar {
+	width: 100%;
+}
+
+.sidebar-post-title {
+	margin: 0 0 22px 0;
+	font-size: 1rem;
+}
+
+.subscribe {
+  	margin-top: 40px;
+}
+
+.subscribe-post-title {
+  	margin-bottom: 22px;
+  	font-size: 1rem;
+}
+
+.tags {
+  	margin-top: 40px;
+}
+
+.tags-post-title {
+	font-size: 1rem;
+}
+
+.categories {
+  	margin-top: 40px;
+}
+
+.categories-post-title {
+	font-size: 1rem;
+  	margin-bottom: 23px;
+}
+
+.item-link {
+	margin-right: 2px;
+}
+
+/*-----------SHOP----------*/
+
+.shop-wrap {
+	flex-direction: column;
+}
+
+.shop-post-title {
+	font-size: 1rem;
+	margin-top: 27px;
+}
+
+.shop-card {
+	flex-direction: column;
+}
+
+.shop-card:not(:last-child) {
+		margin-bottom: 26px;
+}
+
+.picture {
+	width: 95%;
+}
+
+/*---------FOOTER----------*/
+
+.footer {
+  	margin-top: 44px;
+}
+
+
+/*---------LANDSCAPE----------*/
+
+
+@media (orientation: landscape) {
+	.trends-list {
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 20px;
+	}
+
+	.trends-item {
+		width: calc(50% - 2px);
+		min-height: 246px;
+		margin-bottom: 3px;
+		padding:  16px 2.5% 16px 2.5%;
+	}
+
+	.trends-item:nth-child(2n+1) {
+		margin-right: 4px;
+	}
+}
